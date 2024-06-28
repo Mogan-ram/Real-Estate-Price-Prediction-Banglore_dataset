@@ -1,0 +1,8 @@
+flask
+pandas
+scikit-learn==1.4.1.post1
+joblib
+seaborn
+matplotlib
+plotly
+-- upgrade nbformat

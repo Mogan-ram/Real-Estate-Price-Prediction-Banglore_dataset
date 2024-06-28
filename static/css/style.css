@@ -1,0 +1,133 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("pic2.jpg");
+    background-size: cover;
+}
+
+/* Center the form horizontally */
+form {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /* Keeps labels and inputs stacked */
+    justify-content: center;
+    /* Centers form vertically */
+    align-items: center;
+    /* Centers form horizontally within its container */
+}
+
+fieldset {
+    border-width: 3px;
+    border-style: double;
+    border-color: #3ac841;
+}
+
+legend {
+    text-align: center;
+    font-size: 2.4rem;
+    color: whitesmoke;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #262626;
+}
+
+/* Labels and Inputs on the same line */
+label {
+    display: inline-block;
+    /* Allow labels to occupy space next to inputs */
+    color: white;
+    margin: 5px 10px 5px 0;
+    /* Adjust margins for spacing */
+    width: 30%;
+    /* Adjust label width as needed */
+}
+
+/* Remove inline display for inputs (not needed) */
+input,
+select {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Adjust button styles (optional) */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    margin: 10px 0;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    /* New styles for centering */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#prediction-result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4.2em;
+    color: #f2f2f2;
+    font-weight: bold;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #262626;
+}
+
+#bar-dis {
+    color: white;
+    font-size: 2.1rem;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: greenyellow;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #262626;
+}
+
+#bar-chart {
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #262626;
+}
+
+#actual-predicted-prices {
+    margin-top: 20px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: black;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+th {
+    background-color: #edf02ebe;
+}
