@@ -19,7 +19,7 @@ The Real Estate Price Prediction Web Application is designed to predict real est
 ## Installation
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Mogan-ram/Real-Estate-Price-Prediction-for-banglore-using-data-science.git
+    git clone https://github.com/Mogan-ram/Real-Estate-Price-Prediction-Banglore_dataset.git
     cd real-estate-price-prediction
     ```
 
